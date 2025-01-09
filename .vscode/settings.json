@@ -2,16 +2,16 @@
     "sqltools.connections": [
         {
             "mysqlOptions": {
-                "authProtocol": "default",
+                "authProtocol": "",
                 "enableSsl": "Disabled"
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "Laravel",
-            "username": "root",
-            "database": "mysql"
+            "port": ,
+            "driver": "",
+            "name": "",
+            "username": "",
+            "database": ""
         }
     ]
 }
