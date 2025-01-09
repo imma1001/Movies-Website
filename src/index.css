@@ -1,0 +1,103 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav >ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin: 5px;
+}
+
+nav> ul>li {
+  float: left;
+}
+
+nav>ul>li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ main {
+  padding: 40px 30px;
+  background: #f6f4f4;
+  margin: 5px;
+ }
+
+main ul li { 
+   max-width: 100px;
+   margin-block:10px ;
+   padding-left: 15px;
+}
+
+.list{
+  display: flex;
+  margin: 35px;
+  flex-shrink: 0;
+  margin-right: 10px;
+ 
+}
+.siz{
+  width:  20px;
+  height: 20px;
+}
+.main-img{
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.img-container{
+  padding: 20px 20px;
+}
+.img-container p{
+  max-width: 43%;
+}
+.text-input{
+  display: flex;
+  gap: 12px;
+  padding: 10px 20px
+
+}
+.input-add{
+  width: 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px; /* Two rows: 100px and 200px */
+  grid-template-columns: 100px 100px100px 100px; /* Two columns: one fraction and two fractions */
+  gap: 10px; /* Space between grid items */
+  padding: 10px;
+}
+.grid-item {
+  background-color: blue;
+  border: 1px solid black;
+  text-align: center;
+}

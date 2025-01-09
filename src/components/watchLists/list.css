@@ -1,0 +1,28 @@
+.fun-main{
+   list-style: none;
+   background-color: rgba(34, 35, 35, 0.885);
+   width: 60%;
+   border-radius: 15px;
+}
+   .item-todo {
+    display: flex;
+    justify-content: space-between; /* Align text and buttons */
+    align-items: center; /* Vertically align content */
+    padding: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input{
+    border-radius: 15px;
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+  }
